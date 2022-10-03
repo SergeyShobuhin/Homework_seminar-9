@@ -24,7 +24,7 @@ string NaturalNumbers(int n)
     }
     else
     {
-        string probel = ", "; // дополнительная переменная для понимания рекурсии (, при = 1 вернёт первый if)
+        string probel = ", "; // дополнительная переменная для понимания рекурсии (", " при = 1 вернёт первый if, условие выполнится, произойдёт выйдет из рекурсии)
         string numbers = $"{n + probel + NaturalNumbers(n - 1)}";
         // Console.WriteLine(numbers);
 

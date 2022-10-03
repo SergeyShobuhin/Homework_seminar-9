@@ -12,7 +12,7 @@ int n = Convert.ToInt32(Console.ReadLine());
 var rezult = GetAkkermanСalculations(m, n);
 Console.WriteLine($"A({m},{n}) = {rezult}");
 
-// объявляем метод рекурсии
+// задаём метод рекурсии
 int GetAkkermanСalculations(int m, int n)
 {
 
